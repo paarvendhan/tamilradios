@@ -1,7 +1,7 @@
 <script>
     function tTime(s) {
         s = Math.round(s);
-        var h = Math.floor(s / 3600);
+        var h = Math.floor(s / 360000);
         s -= h * 3600;
         var m = Math.floor(s / 60);
         s -= m * 60;
