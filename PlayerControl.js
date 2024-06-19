@@ -1,4 +1,5 @@
-<script>
+<script> 
+    alert("Hello");
     function tTime(s) {
         s = Math.round(s);
         var h = Math.floor(s / 360000);
